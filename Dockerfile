@@ -12,6 +12,3 @@ VOLUME /data
 # Init scripts
 ADD init_db.sql /docker-entrypoint-initdb.d/
 #ADD init_osm.sh /docker-entrypoint-initdb.d/
-
-# keep container open for debugging
-CMD tail -F -n0 /etc/hosts
