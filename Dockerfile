@@ -11,4 +11,4 @@ VOLUME /data
 
 # Init scripts
 ADD init_db.sql /docker-entrypoint-initdb.d/
-#ADD init_osm.sh /docker-entrypoint-initdb.d/
+ADD init_osm.sh /docker-entrypoint-initdb.d/
